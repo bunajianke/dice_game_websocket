@@ -1,0 +1,53 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/diceTwo/diceTwo",
+			"style": {
+				"navigationBarTitleText": "骰子天天乐"
+			}
+		},
+		{
+			"path": "pages/luckyWheel/luckyWheel",
+			"style": {
+				"navigationBarTitleText": "幸运大转盘"
+			}
+		}
+	    ,{
+            "path" : "pages/skinSelect/skinSelect",
+            "style" : {
+							"navigationBarTitleText": "选择皮肤"
+						}
+        }
+        ,{
+            "path" : "pages/multiplayer/multiplayer",
+            "style" : {
+							"navigationBarTitleText": "大话骰"
+						}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#2c0d6c",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#EB2424",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/diceTwo/diceTwo",
+				"selectedIconPath": "static/dice.png",
+				"iconPath": "static/dice.png",
+				"text": "摇骰子"
+			},
+			{
+				"pagePath": "pages/luckyWheel/luckyWheel",
+				"selectedIconPath": "static/wheel.png",
+				"iconPath": "static/wheel.png",
+				"text": "大转盘"
+			}
+		]
+	}
+}

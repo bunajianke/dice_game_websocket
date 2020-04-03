@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/diceTwo/diceTwo",
+    "pages/luckyWheel/luckyWheel",
+    "pages/skinSelect/skinSelect",
+    "pages/multiplayer/multiplayer"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#2c0d6c",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#EB2424",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/diceTwo/diceTwo",
+        "selectedIconPath": "static/dice.png",
+        "iconPath": "static/dice.png",
+        "text": "摇骰子"
+      },
+      {
+        "pagePath": "pages/luckyWheel/luckyWheel",
+        "selectedIconPath": "static/wheel.png",
+        "iconPath": "static/wheel.png",
+        "text": "大转盘"
+      }
+    ]
+  },
+  "usingComponents": {
+    "an-layer": "/components/an-layer/an-layer"
+  },
+  "sitemapLocation": "sitemap.json"
+}

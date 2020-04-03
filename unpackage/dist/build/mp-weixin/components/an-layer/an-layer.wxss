@@ -1,0 +1,1 @@
+.an-layer{position:fixed;z-index:999999;background:rgba(0,0,0,.3);height:100%;width:100%;top:0;left:0;overflow:hidden}.an-message{position:fixed;z-index:1000000;background:#fff;-webkit-transition:all .4s ease-in-out;transition:all .4s ease-in-out;overflow:hidden;font-size:14px;text-align:center;color:#fff;height:60rpx;line-height:60rpx}.scoll{overflow-y:auto;height:95%}
